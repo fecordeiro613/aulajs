@@ -1,0 +1,5 @@
+/*tipos de variáveis*/
+
+var a = 5  //escopo global
+const b = "teste" //escopo local
+let c = 20 //sempre mesmo valor
