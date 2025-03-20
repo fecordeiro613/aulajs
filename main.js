@@ -1,9 +1,12 @@
-const array = [2,3,4,5,6]
+function Pessoa (a,b){    //uma função que é uma classe 
+    this.nome = a;
+    this.idade = b;     //atributos da classe definidos
+}
 
-array.forEach(item => {
-    if (item % 2 == 0){
-        console.log("o número é par: "+ item);
-    }else{
-        console.log ("o número é impar: " + item);
-    }
-})
+const p = new Pessoa ('Afonso', 31);  //declarou a var p classe 
+
+
+
+console.log (p);
+
+//praticamente POO com Python do 3 semestre mas com JS
