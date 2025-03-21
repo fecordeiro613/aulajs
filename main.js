@@ -3,9 +3,11 @@ console.log(lista);
 
 console.log(lista[1]);
 
-lista.push("Felipe");
+lista.push("Felipe"); //adiciona o dado
 console.log(lista);
 
+lista.pop("Felipe");  //tira o dado 
+console.log(lista);
 
 
 
