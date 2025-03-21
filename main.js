@@ -9,6 +9,7 @@ console.log(lista);
 lista.pop("Felipe");  //tira o dado 
 console.log(lista);
 
+console.log(lista.length);
 
 
 
