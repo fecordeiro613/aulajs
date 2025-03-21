@@ -1,4 +1,28 @@
-function Carro (a,b,c,d,e){    //uma função que é uma classe 
+var lista = ["afonso", "henrique", "aline"];
+console.log(lista);
+
+console.log(lista[1]);
+
+lista.push("Felipe");
+console.log(lista);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function Carro (a,b,c,d,e){    //uma função que é uma classe 
     this.modelo = a;
     this.cor = b;
     this.ano = c;
@@ -17,9 +41,9 @@ function Carro (a,b,c,d,e){    //uma função que é uma classe
 
 
 
-var carro = new Carro ('siena', 'laranja', 2006, 80000  , true);  //declarou a var p classe 
+var carro = new Carro ('siena', 'laranja', 2006, 80000  , false);  //declarou a var p classe 
 
 
 console.log (carro);
 
-//praticamente POO com Python do 3 semestre mas com JS
+//praticamente POO com Python do 3 semestre mas com JS*/
